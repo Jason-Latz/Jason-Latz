@@ -1,4 +1,7 @@
-## Hi there 👋
+
+
+
+I'm a Northwestern student who's trying to make cool things!
 
 <!--
 **Jason-Latz/Jason-Latz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
