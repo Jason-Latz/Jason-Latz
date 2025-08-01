@@ -10,3 +10,6 @@ Welcome to my GitHub profile! I'm a student and developer with a passion for bui
 
 
 Just trying to have fun experimenting
+
+
+![BC5D20BE-7BF1-45F6-A5CC-90B84449DD8F_1_105_c](https://github.com/user-attachments/assets/bd126b6a-7f46-4ae7-8fe8-b6097625164f)
