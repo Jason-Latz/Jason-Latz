@@ -1,6 +1,7 @@
 # Jason Latz
 
-Welcome to my GitHub profile! I'm a student and developer with a passion for building intelligent systems and data-driven applications. 
+How's it going? I'm Jason, a student at Northwestern trying to make cool things! I'm super passionate about mixing CS 
+with psychology to help humans do human things better. :)
 
 
 - **Northwestern University** – B.S. in Computer Science and Psychology
