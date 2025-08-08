@@ -1,0 +1,24 @@
+name: Update recent activity
+
+on:
+  schedule:
+    - cron: "31 6 * * *"  # daily at 06:31 UTC
+  workflow_dispatch:
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Recent activity
+        uses: Readme-Workflows/recent-activity@v2.6.3
+        with:
+          GH_USERNAME: Jason-Latz
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update recent activity"
+          file_pattern: README.md
