@@ -1,7 +1,8 @@
 <!-- Profile README for Jason-Latz -->
 
 <p align="center">
-  <img src="assets/me.jpg" alt="Jason smiling" width="180" height="180" style="border-radius: 50%; object-fit: cover; box-shadow: 0px 4px 12px rgba(0,0,0,0.2);" />
+  ![BC5D20BE-7BF1-45F6-A5CC-90B84449DD8F_1_105_c](https://github.com/user-attachments/assets/537fd42e-0906-4813-8dac-37ac2337df7c)
+
 </p>
 
 <h1 align="center">Hi, I’m Jason 👋</h1>
