@@ -1,0 +1,34 @@
+name: Update contribution activity graph
+
+on:
+  schedule:
+    - cron: "17 6 * * *"  # daily at 06:17 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate activity graph
+        uses: Ashutosh00710/github-readme-activity-graph@v0.3.4
+        with:
+          username: Jason-Latz
+          theme: react-dark
+          radius: 10
+          area: true
+          custom_title: "My GitHub Commit History"
+          hide_border: false
+
+      - name: Move output to assets
+        run: |
+          mkdir -p assets
+          mv activity-graph.svg assets/contribution-graph.svg
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution graph"
+          file_pattern: assets/contribution-graph.svg
