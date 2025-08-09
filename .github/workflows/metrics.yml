@@ -27,4 +27,9 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_lines: yes
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_habits: yes
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
           output: assets/metrics.svg

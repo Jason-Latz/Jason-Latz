@@ -16,7 +16,7 @@ jobs:
         uses: Ashutosh00710/github-readme-activity-graph@v0.3.4
         with:
           username: Jason-Latz
-          theme: react-dark
+          theme: tokyonight
           radius: 10
           area: true
           custom_title: "My GitHub Commit History"
