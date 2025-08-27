@@ -1,34 +1,28 @@
-name: Update contribution activity graph
+name: GitHub-Profile-3D-Contrib
 
 on:
-  schedule:
-    - cron: "17 6 * * *"  # daily at 06:17 UTC
+  schedule: # 03:00 JST == 18:00 UTC
+    - cron: "0 18 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Generate activity graph
-        uses: Ashutosh00710/github-readme-activity-graph@v0.3.4
-        with:
-          username: Jason-Latz
-          theme: tokyonight
-          radius: 10
-          area: true
-          custom_title: "My GitHub Commit History"
-          hide_border: false
-
-      - name: Move output to assets
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
         run: |
-          mkdir -p assets
-          mv activity-graph.svg assets/contribution-graph.svg
-
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update contribution graph"
-          file_pattern: assets/contribution-graph.svg
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "generated"; then
+            git push
+          fi
