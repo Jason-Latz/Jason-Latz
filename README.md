@@ -19,7 +19,14 @@
 
 ## 🌟 About Me
 
-I’m a full‑stack developer who sees code as both a tool and a canvas. My projects blend solid engineering practices with an appreciation for elegant, delightful user experiences. Whether I’m crafting APIs or fine‑tuning interfaces, I strive to keep everything clean, maintainable, and beautiful.
+I'm a Northwestern student trying to make new useful things! I also study Psychology, so a lot of the things I am making try to include that interest. I'd love to collaborate if you have any ideas :)
+---
+
+
+## 🧭 My GitHub Metrics
+<p align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub metrics" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);" />
+</p>
 
 ---
 
@@ -33,30 +40,6 @@ I’m a full‑stack developer who sees code as both a tool and a canvas. My pro
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker" />
 </p>
-
----
-
-## 🎨 Crafting Beautiful Code
-
-I believe well‑designed software is a form of art. Each commit is an opportunity to refine structure, improve clarity, and build experiences that are as pleasing to look at as they are to use.
-
----
-
-
-## 🧭 My GitHub Metrics
-<p align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub metrics" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);" />
-</p>
-
----
-
-## 🔄 Recent GitHub Activity
-<div align="center">
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-</div>
 
 ---
 
