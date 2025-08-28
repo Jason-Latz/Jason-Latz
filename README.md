@@ -42,16 +42,10 @@ I believe well‑designed software is a form of art. Each commit is an opportuni
 
 ---
 
-## 📈 My Commit History
-<p align="center">
-  <img src="assets/contribution-graph.svg" alt="Contribution activity graph" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);" />
-</p>
-
----
 
 ## 🧭 My GitHub Metrics
 <p align="center">
-  <img src="profile-3d-contrib/profile-green-animate.svg)" alt="GitHub metrics" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);" />
+  <img src="profile-3d-contrib/profile-green-animate.svg" alt="GitHub metrics" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);" />
 </p>
 
 ---
