@@ -19,7 +19,7 @@
 
 ## 🌟 About Me
 
-I'm a Northwestern student trying to make new useful things! I also study Psychology, so a lot of the things I am making try to include that interest. I'd love to collaborate if you have any ideas :)
+I'm a Northwestern student studying Computer Science and Psychology! Lately, I've been examining new places they can intersect to provide value, especially in education. With new LLM technologies coming out almost daily, there is an incredible opportunity for students to optimize their learning. You can see some of my recent projects down below!
 ---
 
 
