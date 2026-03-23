@@ -22,6 +22,14 @@
 I'm a Northwestern student studying Computer Science and Psychology! Lately, I've been examining new places they can intersect to provide value, especially in education. With new LLM technologies coming out almost daily, there is an incredible opportunity for students to optimize their learning. You can see some of my recent projects down below!
 ---
 
+## 🚀 Recent Work (March 2026)
+
+- Built out [gowild-planner](https://github.com/Jason-Latz/gowild-planner) with a major quality pass on **March 4-6, 2026**: API error handling and rate limits, auth/cron secret hardening, itinerary data improvements, resilient alert digest processing, and broader CI coverage.
+- Refined [jbl-site](https://github.com/Jason-Latz/jbl-site) on **March 4-6, 2026** with homepage cleanup, tighter feature card UX, and travel-image pipeline updates for smoother rendering and transform resilience.
+- Merged PR `Codex/landing page` into a private LessonForge repo on **March 9, 2026** to ship the first landing-page iteration.
+
+---
+
 
 ## 🧭 My GitHub Metrics
 <p align="center">
@@ -48,4 +56,3 @@ I'm a Northwestern student studying Computer Science and Psychology! Lately, I'v
   <a href="mailto:latz@u.northwestern.edu"><strong>Email</strong></a> •
   <a href="https://www.linkedin.com/in/jason-latz-7b8634242/"><strong>LinkedIn</strong></a>
 </p>
-
