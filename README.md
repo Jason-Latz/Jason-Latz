@@ -22,9 +22,9 @@
 I'm a Northwestern student studying Computer Science and Psychology! Lately, I've been examining new places they can intersect to provide value, especially in education. With new LLM technologies coming out almost daily, there is an incredible opportunity for students to optimize their learning. You can see some of my recent projects down below!
 ---
 
-## 🚀 Recent Work (Updated March 30, 2026)
+## 🚀 Recent Work (Updated March 31, 2026)
 
-- As of **March 30, 2026**, there are no new public project commits or PR updates since the March 29 refresh; the only new public activity was a profile README maintenance commit in `Jason-Latz/Jason-Latz` (`a40cdd5`).
+- As of **March 31, 2026**, there are no new public project commits or PR updates since the March 30 refresh; the only public commit in that window was the prior profile README maintenance update in `Jason-Latz/Jason-Latz` (`226f3a0`).
 - Shipped a concentrated hardening pass in [hackscan](https://github.com/Jason-Latz/hackscan) on **March 22, 2026** with auth redirect sanitization, stricter admin API access controls, dynamic dashboard rendering, digest freshness fixes, and Notion URL-based upsert handling.
 - Continued [LessonForge](https://github.com/Jason-Latz/LessonForge) progress on **March 9-11, 2026**, including a merged PR ([#1](https://github.com/Jason-Latz/LessonForge/pull/1)) for the landing-page iteration plus follow-up repo/workspace refactors and architecture docs.
 - Built out [gowild-planner](https://github.com/Jason-Latz/gowild-planner) with a major quality pass on **March 4-6, 2026**: API error handling and rate limits, auth/cron secret hardening, itinerary data improvements, resilient alert digest processing, and broader CI coverage.
