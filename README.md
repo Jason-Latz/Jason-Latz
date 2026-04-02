@@ -21,15 +21,13 @@
 
 I'm a Northwestern student studying Computer Science and Psychology! Lately, I've been examining new places they can intersect to provide value, especially in education. With new LLM technologies coming out almost daily, there is an incredible opportunity for students to optimize their learning. You can see some of my recent projects down below!
 
-## 📡 Build Signal
+## 💡 Build Queue
 
-<p align="center">
-  <img src="assets/build-signal.svg" alt="Dashboard-style graphic showing Jason's build themes and active project areas." />
-</p>
-
-<p align="center">
-  <em>Most of my work clusters around learning systems, agent tooling, and interfaces that feel sharp instead of improvised.</em>
-</p>
+- **Seminar Sparring Partner**: turn readings or lecture notes into a live debate partner that argues back, surfaces weak reasoning, and generates follow-up recall prompts.
+- **Course-to-Flashcards Pipeline**: ingest slides, notes, and assignment feedback, then produce spaced-repetition cards and a weekly "what to review next" digest.
+- **Research Paper Comparator**: upload two or three papers and get a structured map of agreements, conflicts, open questions, and where each paper is actually weak.
+- **Study Friction Tracker**: log where learning sessions stall, then use lightweight AI coaching to spot recurring blockers and suggest smaller next actions.
+- **Interview Story Builder**: convert project commits, PRs, and notes into concise STAR stories so interesting work becomes easier to explain in recruiting conversations.
 
 ---
 
