@@ -20,6 +20,17 @@
 ## 🌟 About Me
 
 I'm a Northwestern student studying Computer Science and Psychology! Lately, I've been examining new places they can intersect to provide value, especially in education. With new LLM technologies coming out almost daily, there is an incredible opportunity for students to optimize their learning. You can see some of my recent projects down below!
+
+## 📡 Build Signal
+
+<p align="center">
+  <img src="assets/build-signal.svg" alt="Dashboard-style graphic showing Jason's build themes and active project areas." />
+</p>
+
+<p align="center">
+  <em>Most of my work clusters around learning systems, agent tooling, and interfaces that feel sharp instead of improvised.</em>
+</p>
+
 ---
 
 ## 🚀 Recent Work (Updated April 2, 2026)
