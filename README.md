@@ -31,9 +31,9 @@ I'm a Northwestern student studying Computer Science and Psychology! Lately, I'v
 
 ---
 
-## 🚀 Recent Work (Updated April 3, 2026)
+## 🚀 Recent Work (Updated April 5, 2026)
 
-- As of **April 3, 2026**, there are still no new public project commits or PR updates since the April 2 refresh; the only new public commits in that window were profile README updates in `Jason-Latz/Jason-Latz` (`18104e3`, `05452cf`).
+- As of **April 5, 2026**, I shipped a fresh [yapper](https://github.com/Jason-Latz/yapper) hardening burst on **April 3, 2026** (`a79faa8`, `6c22abf`, `b6a3f2f`, `05d271a`) covering backend/provider persistence optimization, iOS build/demo flow fixes, and session recovery/speech callback race fixes; there are no newer authored PR updates since [LessonForge PR #1](https://github.com/Jason-Latz/LessonForge/pull/1) on March 9, 2026.
 - Shipped a concentrated hardening pass in [hackscan](https://github.com/Jason-Latz/hackscan) on **March 22, 2026** with auth redirect sanitization, stricter admin API access controls, dynamic dashboard rendering, digest freshness fixes, and Notion URL-based upsert handling.
 - Continued [LessonForge](https://github.com/Jason-Latz/LessonForge) progress on **March 9-11, 2026**, including a merged PR ([#1](https://github.com/Jason-Latz/LessonForge/pull/1)) for the landing-page iteration plus follow-up repo/workspace refactors and architecture docs.
 - Built out [gowild-planner](https://github.com/Jason-Latz/gowild-planner) with a major quality pass on **March 4-6, 2026**: API error handling and rate limits, auth/cron secret hardening, itinerary data improvements, resilient alert digest processing, and broader CI coverage.
