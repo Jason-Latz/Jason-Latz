@@ -31,13 +31,13 @@ I'm a Northwestern student studying Computer Science and Psychology! Lately, I'v
 
 ---
 
-## 🚀 Recent Work (Updated April 14, 2026)
+## 🚀 Recent Work (Updated April 15, 2026)
 
-- As of **April 14, 2026**, my latest authored code changes are still the [yapper](https://github.com/Jason-Latz/yapper) hardening burst from **April 3, 2026** (`a79faa8`, `6c22abf`, `b6a3f2f`, `05d271a`) covering backend/provider persistence optimization, iOS build/demo flow fixes, and session recovery/speech callback race fixes; there are still no newer authored PR updates since [LessonForge PR #1](https://github.com/Jason-Latz/LessonForge/pull/1) on **March 9, 2026**.
-- Shipped a concentrated hardening pass in [hackscan](https://github.com/Jason-Latz/hackscan) on **March 22, 2026** with auth redirect sanitization, stricter admin API access controls, dynamic dashboard rendering, digest freshness fixes, and Notion URL-based upsert handling.
-- Continued [LessonForge](https://github.com/Jason-Latz/LessonForge) progress on **March 9-11, 2026**, including a merged PR ([#1](https://github.com/Jason-Latz/LessonForge/pull/1)) for the landing-page iteration plus follow-up repo/workspace refactors and architecture docs.
-- Built out [gowild-planner](https://github.com/Jason-Latz/gowild-planner) with a major quality pass on **March 4-6, 2026**: API error handling and rate limits, auth/cron secret hardening, itinerary data improvements, resilient alert digest processing, and broader CI coverage.
-- Refined [jbl-site](https://github.com/Jason-Latz/jbl-site) on **March 4-6, 2026** with homepage cleanup, tighter feature card UX, and travel-image pipeline updates for smoother rendering and transform resilience.
+- On **April 14, 2026**, I pushed a fresh [yapper](https://github.com/Jason-Latz/yapper) iteration that moved live-session orchestration into the shared Swift module, added `swift test` coverage for failed-turn recovery, correction carry-forward, and non-blocking shutdown (`9c0cdfa`, `7385855`), and documented a preference for smaller modular commits (`1ae851d`).
+- On **April 14, 2026**, I extended [jbl-site](https://github.com/Jason-Latz/jbl-site) with a cron-protected Spotify history sync route and incremental catch-up logic so weekly artist data stays current on Vercel Hobby, then documented the deployment backstop and sync-cadence rule (`4643268`, `264dc0c`, `5f7a2ab`).
+- Opened [Kindle_pdf_translation PR #5](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/5) on **April 15, 2026** to make the stack deploy cleanly on Vercel with S3-backed artifacts and optional Supabase Postgres job state, including a FastAPI serverless entrypoint and relational DB mode support.
+- Tightened this [profile repo](https://github.com/Jason-Latz/Jason-Latz) on **April 14, 2026** with workflow token/runtime fixes, recent-activity markers, and a refreshed metrics asset so the weekly automation has cleaner inputs.
+- Earlier March focus areas still include [hackscan](https://github.com/Jason-Latz/hackscan), [LessonForge](https://github.com/Jason-Latz/LessonForge), and [gowild-planner](https://github.com/Jason-Latz/gowild-planner), but this week centered on deployment plumbing, sync reliability, and testable session flows.
 
 ---
 
