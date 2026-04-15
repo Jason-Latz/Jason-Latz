@@ -5,6 +5,9 @@ on:
     - cron: "23 6 * * *"  # daily at 06:23 UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   metrics:
     runs-on: ubuntu-latest
@@ -18,7 +21,7 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ github.token }}
           user: Jason-Latz
           template: classic
           base: header, activity, community, repositories, metadata
