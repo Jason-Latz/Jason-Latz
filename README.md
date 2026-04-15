@@ -41,6 +41,11 @@ I'm a Northwestern student studying Computer Science and Psychology! Lately, I'v
 
 ---
 
+## 📌 Recent GitHub Activity
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
+
+---
 
 ## 🧭 My GitHub Metrics
 <p align="center">
