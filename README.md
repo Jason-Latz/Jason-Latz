@@ -31,13 +31,13 @@ I'm a Northwestern student studying Computer Science and Psychology! Lately, I'v
 
 ---
 
-## 🚀 Recent Work (Updated April 15, 2026)
+## 🚀 Recent Work (Updated April 16, 2026)
 
-- On **April 14, 2026**, I pushed a fresh [yapper](https://github.com/Jason-Latz/yapper) iteration that moved live-session orchestration into the shared Swift module, added `swift test` coverage for failed-turn recovery, correction carry-forward, and non-blocking shutdown (`9c0cdfa`, `7385855`), and documented a preference for smaller modular commits (`1ae851d`).
-- On **April 14, 2026**, I extended [jbl-site](https://github.com/Jason-Latz/jbl-site) with a cron-protected Spotify history sync route and incremental catch-up logic so weekly artist data stays current on Vercel Hobby, then documented the deployment backstop and sync-cadence rule (`4643268`, `264dc0c`, `5f7a2ab`).
+- On **April 14-15, 2026**, I kept pushing on [yapper](https://github.com/Jason-Latz/yapper): first moving live-session orchestration into the shared Swift module, adding `swift test` coverage for failed-turn recovery and non-blocking shutdown (`9c0cdfa`, `7385855`), then opening [PR #1](https://github.com/Jason-Latz/yapper/pull/1) to pin the Ruby toolchain so the iOS GitHub Actions build can actually get through project generation and into the real Xcode build/test steps.
+- On **April 14-15, 2026**, I expanded [jbl-site](https://github.com/Jason-Latz/jbl-site) with daily Spotify history sync and then opened [PR #2](https://github.com/Jason-Latz/jbl-site/pull/2) to pause expensive live polling in hidden tabs and refresh immediately when the page becomes visible again, trimming background traffic without making the homepage feel stale.
 - Opened [Kindle_pdf_translation PR #5](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/5) on **April 15, 2026** to make the stack deploy cleanly on Vercel with S3-backed artifacts and optional Supabase Postgres job state, including a FastAPI serverless entrypoint and relational DB mode support.
-- Tightened this [profile repo](https://github.com/Jason-Latz/Jason-Latz) on **April 14, 2026** with workflow token/runtime fixes, recent-activity markers, and a refreshed metrics asset so the weekly automation has cleaner inputs.
-- Earlier March focus areas still include [hackscan](https://github.com/Jason-Latz/hackscan), [LessonForge](https://github.com/Jason-Latz/LessonForge), and [gowild-planner](https://github.com/Jason-Latz/gowild-planner), but this week centered on deployment plumbing, sync reliability, and testable session flows.
+- On **April 14-15, 2026**, I also spent time on a private iOS journaling app, adding settings and entry-management flows, local maintenance and storage-usage services, and an OpenAI-backed transcription improvement path.
+- I kept this [profile repo](https://github.com/Jason-Latz/Jason-Latz) healthy with workflow/runtime fixes, refreshed recent-activity assets, and this weekly log pass so the public profile stays current while the underlying automation still settles down.
 
 ---
 
