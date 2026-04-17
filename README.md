@@ -43,10 +43,10 @@ I'm a Northwestern student studying Computer Science and Psychology! Lately, I'v
 
 ## 📌 Recent GitHub Activity
 <!--RECENT_ACTIVITY:start-->
-1. 💪 Opened PR [#2](undefined) in [Jason-Latz/jbl-site](https://github.com/Jason-Latz/jbl-site)<br>
-2. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Jason-Latz](https://github.com/Jason-Latz/Jason-Latz)<br>
-3. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Jason-Latz](https://github.com/Jason-Latz/Jason-Latz)<br>
-4. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Jason-Latz](https://github.com/Jason-Latz/Jason-Latz)<br>
+1. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation)<br>
+2. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation)<br>
+3. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation)<br>
+4. ⬆️ Pushed undefined commit(s) to [Jason-Latz/jbl-site](https://github.com/Jason-Latz/jbl-site)<br>
 5. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Jason-Latz](https://github.com/Jason-Latz/Jason-Latz)<br>
 <!--RECENT_ACTIVITY:end-->
 
