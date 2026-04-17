@@ -31,13 +31,14 @@ I'm a Northwestern student studying Computer Science and Psychology! Lately, I'v
 
 ---
 
-## 🚀 Recent Work (Updated April 16, 2026)
+## 🚀 Recent Work (Updated April 17, 2026)
 
-- On **April 14-15, 2026**, I kept pushing on [yapper](https://github.com/Jason-Latz/yapper): first moving live-session orchestration into the shared Swift module, adding `swift test` coverage for failed-turn recovery and non-blocking shutdown (`9c0cdfa`, `7385855`), then opening [PR #1](https://github.com/Jason-Latz/yapper/pull/1) to pin the Ruby toolchain so the iOS GitHub Actions build can actually get through project generation and into the real Xcode build/test steps.
-- On **April 14-15, 2026**, I expanded [jbl-site](https://github.com/Jason-Latz/jbl-site) with daily Spotify history sync and then opened [PR #2](https://github.com/Jason-Latz/jbl-site/pull/2) to pause expensive live polling in hidden tabs and refresh immediately when the page becomes visible again, trimming background traffic without making the homepage feel stale.
-- Opened [Kindle_pdf_translation PR #5](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/5) on **April 15, 2026** to make the stack deploy cleanly on Vercel with S3-backed artifacts and optional Supabase Postgres job state, including a FastAPI serverless entrypoint and relational DB mode support.
-- On **April 14-15, 2026**, I also spent time on a private iOS journaling app, adding settings and entry-management flows, local maintenance and storage-usage services, and an OpenAI-backed transcription improvement path.
-- I kept this [profile repo](https://github.com/Jason-Latz/Jason-Latz) healthy with workflow/runtime fixes, refreshed recent-activity assets, and this weekly log pass so the public profile stays current while the underlying automation still settles down.
+- On **April 16, 2026**, [Kindle_pdf_translation PR #5](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/5) merged after a larger deployment push: I added a Vercel FastAPI entrypoint, routed `/api/*` for serverless hosting, and introduced optional Postgres-backed job state alongside the existing local modes so the translation pipeline can run cleanly with Vercel + S3 + Supabase.
+- Also on **April 16, 2026**, I opened [LessonForge PR #2](https://github.com/Jason-Latz/LessonForge/pull/2) to memoize the dashboard and creator read helpers, cutting redundant Supabase reads during a single server render without changing route behavior.
+- Across **April 15-16, 2026**, I kept refining [jbl-site](https://github.com/Jason-Latz/jbl-site): [PR #2](https://github.com/Jason-Latz/jbl-site/pull/2) pauses expensive Spotify polling while a tab is hidden and refreshes immediately on return, and I followed that with a small cron fix for hobby-safe travel prewarming on the same branch.
+- On **April 14-15, 2026**, I kept moving on [yapper](https://github.com/Jason-Latz/yapper), including shared Swift session orchestration, `swift test` coverage for failed-turn recovery and non-blocking shutdown, and [PR #1](https://github.com/Jason-Latz/yapper/pull/1) to pin the Ruby toolchain so the iOS Actions build can make it through project generation and into real build/test steps.
+- On **April 14-15, 2026**, I also spent time on a private iOS journaling app, focusing on transcript editing and playback inside entry detail views, scoped insights windows and top-term analysis, and supporting tests for maintenance and cloud transcription flows.
+- I kept this [profile repo](https://github.com/Jason-Latz/Jason-Latz) current with refreshed activity assets and another weekly pass so the public log stays aligned with the work above while the automated recent-activity block still needs a separate fix.
 
 ---
 
