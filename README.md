@@ -4,7 +4,7 @@
   <img src="https://github.com/user-attachments/assets/537fd42e-0906-4813-8dac-37ac2337df7c" alt="Jason watching a sunset over the lake" width="320" style="border-radius: 12px;" />
 </p>
 
-<h1 align="center">Hi, I’m Jason 👋</h1>
+<h1 align="center">What's up? I’m Jason :) </h1>
 
 <p align="center">
   <a href="https://github.com/Jason-Latz">
@@ -19,15 +19,8 @@
 
 ## 🌟 About Me
 
-I'm a Northwestern student studying Computer Science and Psychology! Lately, I've been examining new places they can intersect to provide value, especially in education. With new LLM technologies coming out almost daily, there is an incredible opportunity for students to optimize their learning. You can see some of my recent projects down below!
+I'm a Northwestern student studying Computer Science and Psychology! After working for a YC startup all winter, I'm just chilling and working on my own projects, mostly B2C stuff focusing on providing value to society! Health, education, and journaling are the focus areas I've been taking a look at recently. Have a look around!
 
-## 💡 Build Queue
-
-- **Seminar Sparring Partner**: turn readings or lecture notes into a live debate partner that argues back, surfaces weak reasoning, and generates follow-up recall prompts.
-- **Course-to-Flashcards Pipeline**: ingest slides, notes, and assignment feedback, then produce spaced-repetition cards and a weekly "what to review next" digest.
-- **Research Paper Comparator**: upload two or three papers and get a structured map of agreements, conflicts, open questions, and where each paper is actually weak.
-- **Study Friction Tracker**: log where learning sessions stall, then use lightweight AI coaching to spot recurring blockers and suggest smaller next actions.
-- **Interview Story Builder**: convert project commits, PRs, and notes into concise STAR stories so interesting work becomes easier to explain in recruiting conversations.
 
 ---
 
@@ -42,14 +35,6 @@ I'm a Northwestern student studying Computer Science and Psychology! Lately, I'v
 
 ---
 
-## 📌 Recent GitHub Activity
-<!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation)<br>
-2. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation)<br>
-3. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation)<br>
-4. ⬆️ Pushed undefined commit(s) to [Jason-Latz/jbl-site](https://github.com/Jason-Latz/jbl-site)<br>
-5. ⬆️ Pushed undefined commit(s) to [Jason-Latz/Jason-Latz](https://github.com/Jason-Latz/Jason-Latz)<br>
-<!--RECENT_ACTIVITY:end-->
 
 ---
 
