@@ -53,9 +53,9 @@ I'm a Northwestern student studying Computer Science and Psychology! Lately, I'v
 
 ---
 
-## 🧭 My GitHub Metrics
+## 🧭 GitHub Activity Graph
 <p align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub metrics" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);" />
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub contribution graph" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15);" />
 </p>
 
 ---
