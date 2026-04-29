@@ -24,13 +24,13 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated April 28, 2026)
+## 🚀 Recent Work (Updated April 29, 2026)
 
-- This week’s newest public GitHub change is draft [jbl-site PR #5](https://github.com/Jason-Latz/jbl-site/pull/5), opened on **April 27, 2026**, where I reshaped `/api/travel/prefetch` and `/api/travel/prewarm` so warmup jobs read only the recent public photo URLs they actually need instead of loading the full travel catalog.
+- This week’s newest public GitHub change is draft [gowild-planner PR #1](https://github.com/Jason-Latz/gowild-planner/pull/1), opened on **April 28, 2026**, where I optimized the search service so itinerary selection reuses the existing best-first ordering instead of re-sorting per-destination outbound buckets on the hot path.
+- On **April 27, 2026**, draft [jbl-site PR #5](https://github.com/Jason-Latz/jbl-site/pull/5) reshaped `/api/travel/prefetch` and `/api/travel/prewarm` so warmup jobs read only the recent public photo URLs they actually need instead of loading the full travel catalog.
 - Also on **April 27, 2026**, I pushed a new `Experiments` sprint around an "evidence gym" concept: adding core models, a starter claim catalog, protocol generation, CLI/report rendering, and follow-up seed recovery plus publish-audit commits to keep the project history intact.
 - On **April 26, 2026**, draft [Kindle_pdf_translation PR #7](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/7) collapsed workflow job status updates into a single `UPDATE ... RETURNING` path so translation runs preserve behavior with fewer Postgres round-trips.
 - Also on **April 26, 2026**, draft [jbl-site PR #4](https://github.com/Jason-Latz/jbl-site/pull/4) optimized the home page so it fetches only the latest published post summary and reuses one public Supabase client rather than rebuilding that path on every read.
-- On **April 24, 2026**, draft [jbl-site PR #3](https://github.com/Jason-Latz/jbl-site/pull/3) made the home-page Duolingo widget visibility-aware so hidden tabs stop polling upstream and active tabs refresh immediately when the page becomes visible again.
 
 ---
 
