@@ -24,13 +24,13 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated April 30, 2026)
+## 🚀 Recent Work (Updated May 1, 2026)
 
-- This week’s newest public GitHub change is draft [Kindle_pdf_translation PR #8](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/8), opened on **April 29, 2026**, where I reused flashcard tokenizers by caching the stage’s `Intl.Segmenter` and stopword set once per language instead of rebuilding them for every translated paragraph.
+- On **April 30, 2026**, I pushed a burst of work to public [Prediction_Education](https://github.com/Jason-Latz/Prediction_Education), building out a Papert-style prediction playground with selectable target challenges, an accessible prediction slider, side-by-side run comparison, a lightweight theory pad, clearer learning-goal docs, recalibrated physics spread, and a zoomed ramp view with explicit ramp length.
+- Also on **April 30, 2026**, I opened two private draft PRs: one batches weekly digest candidate loading for a security workflow, and the other fixes a date-handling bug in an experiments CLI.
+- On **April 29, 2026**, draft [Kindle_pdf_translation PR #8](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/8) reused flashcard tokenizers by caching the stage’s `Intl.Segmenter` and stopword set once per language instead of rebuilding them for every translated paragraph.
 - On **April 28, 2026**, draft [gowild-planner PR #1](https://github.com/Jason-Latz/gowild-planner/pull/1) optimized itinerary selection so the search service reuses the existing best-first ordering instead of re-sorting per-destination outbound buckets on the hot path.
 - On **April 27, 2026**, draft [jbl-site PR #5](https://github.com/Jason-Latz/jbl-site/pull/5) reshaped `/api/travel/prefetch` and `/api/travel/prewarm` so warmup jobs read only the recent public photo URLs they actually need instead of loading the full travel catalog.
-- Also on **April 27, 2026**, I pushed a private evidence-gym sprint around claim ranking and experiment design, adding core models, a starter claim catalog, protocol generation, CLI/report rendering, and follow-up seed recovery plus publish-audit commits.
-- On **April 26, 2026**, draft [Kindle_pdf_translation PR #7](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/7) collapsed workflow job status updates into a single `UPDATE ... RETURNING` path so translation runs preserve behavior with fewer Postgres round-trips.
 
 ---
 
