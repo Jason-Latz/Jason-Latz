@@ -24,13 +24,14 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 1, 2026)
+## 🚀 Recent Work (Updated May 3, 2026)
 
-- On **April 30, 2026**, I pushed a burst of work to public [Prediction_Education](https://github.com/Jason-Latz/Prediction_Education), building out a Papert-style prediction playground with selectable target challenges, an accessible prediction slider, side-by-side run comparison, a lightweight theory pad, clearer learning-goal docs, recalibrated physics spread, and a zoomed ramp view with explicit ramp length.
+- On **May 3, 2026**, I pushed another public [Prediction_Education](https://github.com/Jason-Latz/Prediction_Education) update that improved ramp-transition fidelity and contact behavior so the playground’s post-ramp motion lands in more believable final poses.
+- On **May 2, 2026**, I also pushed a larger `Prediction_Education` rewrite that replaced the Matter.js rollout with an explicit classroom-scale physics model covering ramp geometry, rolling inertia, rolling resistance, air drag, and floor deceleration.
+- On **May 1, 2026**, I opened a private draft PR for my journal app that adds SQLite read-path indexes for newest-first entry feeds, transcript history, and pending background-job selection so on-device reads stay fast as the archive grows.
+- On **April 30, 2026**, I pushed the first public `Prediction_Education` burst: selectable target challenges, an accessible prediction slider, side-by-side run comparison, a lightweight theory pad, clearer learning-goal docs, recalibrated physics spread, and a zoomed ramp view with explicit ramp length.
 - Also on **April 30, 2026**, I opened two private draft PRs: one batches weekly digest candidate loading for a security workflow, and the other fixes a date-handling bug in an experiments CLI.
 - On **April 29, 2026**, draft [Kindle_pdf_translation PR #8](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/8) reused flashcard tokenizers by caching the stage’s `Intl.Segmenter` and stopword set once per language instead of rebuilding them for every translated paragraph.
-- On **April 28, 2026**, draft [gowild-planner PR #1](https://github.com/Jason-Latz/gowild-planner/pull/1) optimized itinerary selection so the search service reuses the existing best-first ordering instead of re-sorting per-destination outbound buckets on the hot path.
-- On **April 27, 2026**, draft [jbl-site PR #5](https://github.com/Jason-Latz/jbl-site/pull/5) reshaped `/api/travel/prefetch` and `/api/travel/prewarm` so warmup jobs read only the recent public photo URLs they actually need instead of loading the full travel catalog.
 
 ---
 
