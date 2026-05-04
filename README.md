@@ -24,14 +24,14 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 3, 2026)
+## 🚀 Recent Work (Updated May 4, 2026)
 
+- On **May 4, 2026**, I merged a private PR in my journal app that adds SQLite read-path indexes for newest-first entry feeds, transcript history, and pending background-job selection so the on-device archive stays fast as it grows.
+- Also on **May 4, 2026**, I merged a private backend PR for a chat app that adds session-scoped SQLite indexes plus migration and regression coverage so longer conversation histories stop falling back to full-table scans.
+- Also on **May 4, 2026**, I merged two public [Better Caesar](https://github.com/kev1n/pencil) PRs: one hardens the CAESAR access flow against duplicate profile fetches and retry loops, and the other standardizes responsive breakpoints while keeping analytics tooltips inside narrow viewports.
+- Also on **May 4, 2026**, I pushed two public [Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation) fixes that normalize PDF parser inputs, add a real-PDF regression test, and bundle the pdf.js worker shim so document parsing is more reliable in production.
 - On **May 3, 2026**, I pushed another public [Prediction_Education](https://github.com/Jason-Latz/Prediction_Education) update that improved ramp-transition fidelity and contact behavior so the playground’s post-ramp motion lands in more believable final poses.
 - On **May 2, 2026**, I also pushed a larger `Prediction_Education` rewrite that replaced the Matter.js rollout with an explicit classroom-scale physics model covering ramp geometry, rolling inertia, rolling resistance, air drag, and floor deceleration.
-- On **May 1, 2026**, I opened a private draft PR for my journal app that adds SQLite read-path indexes for newest-first entry feeds, transcript history, and pending background-job selection so on-device reads stay fast as the archive grows.
-- On **April 30, 2026**, I pushed the first public `Prediction_Education` burst: selectable target challenges, an accessible prediction slider, side-by-side run comparison, a lightweight theory pad, clearer learning-goal docs, recalibrated physics spread, and a zoomed ramp view with explicit ramp length.
-- Also on **April 30, 2026**, I opened two private draft PRs: one batches weekly digest candidate loading for a security workflow, and the other fixes a date-handling bug in an experiments CLI.
-- On **April 29, 2026**, draft [Kindle_pdf_translation PR #8](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/8) reused flashcard tokenizers by caching the stage’s `Intl.Segmenter` and stopword set once per language instead of rebuilding them for every translated paragraph.
 
 ---
 
