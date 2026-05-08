@@ -24,13 +24,13 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 5, 2026)
+## 🚀 Recent Work (Updated May 8, 2026)
 
+- On **May 4-6, 2026**, I shipped public updates across the [Pencil](https://github.com/kev1n/pencil) project family: two merged Better Caesar PRs hardening the CAESAR access flow and responsive analytics tooltips, a [pencil-landing-page](https://github.com/kev1n/pencil-landing-page/pull/1) draft PR fixing a React render-purity lint issue, and a follow-up commit that makes every Chrome Web Store CTA open in a new tab so installs do not replace the landing page.
+- On **May 5, 2026**, I opened a new private draft PR in my journal app that skips empty full-text-search rows during quiet save-first capture, adds focused repository tests for blank, title-only, and transcript-backed reindexing, and documents the rule for when searchable entries should hit the index.
+- Also on **May 4-5, 2026**, I pushed the first public version of [Audible_Quizlet](https://github.com/Jason-Latz/Audible_Quizlet), a native SwiftUI iOS app for hands-free flashcard study that imports Quizlet-style exports, grades answers offline, supports voice commands, and exposes adjustable text-to-speech speed with some final polish around disabled controls and listen startup.
 - On **May 4, 2026**, I opened a new private draft PR in an experiment project that reuses normalized comparison snapshots, adds regression coverage against repeated signal extraction, and cuts a synthetic 5,000-log benchmark from about 18 ms/run to 3.7 ms/run without changing the output.
-- Also on **May 4, 2026**, I opened a public draft PR for [pencil-landing-page](https://github.com/kev1n/pencil-landing-page/pull/1) that fixes a React render-purity lint failure by capturing `Date.now()` once through state instead of recomputing it during render.
-- Earlier on **May 4, 2026**, I merged a private PR in my journal app that adds SQLite read-path indexes for newest-first entry feeds, transcript history, and pending background-job selection so the on-device archive stays fast as it grows.
-- Also on **May 4, 2026**, I merged a private backend PR for a chat app that adds session-scoped SQLite indexes plus migration and regression coverage so longer conversation histories stop falling back to full-table scans.
-- Also on **May 4, 2026**, I merged two public [Better Caesar](https://github.com/kev1n/pencil) PRs: one hardens the CAESAR access flow against duplicate profile fetches and retry loops, and the other standardizes responsive breakpoints while keeping analytics tooltips inside narrow viewports.
+- Earlier on **May 4, 2026**, I merged two private database-performance PRs: one in my journal app that adds SQLite read-path indexes for newest-first entry feeds, transcript history, and pending background-job selection, and one in a chat app that adds session-scoped indexes plus migration and regression coverage so longer conversation histories stop falling back to full-table scans.
 - Also on **May 4, 2026**, I pushed two public [Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation) fixes that normalize PDF parser inputs, add a real-PDF regression test, and bundle the pdf.js worker shim so document parsing is more reliable in production.
 - On **May 2-3, 2026**, I pushed public [Prediction_Education](https://github.com/Jason-Latz/Prediction_Education) simulation updates that replaced the Matter.js rollout with an explicit classroom-scale physics model, then refined ramp-transition fidelity and contact behavior so the post-ramp motion lands in more believable final poses.
 
