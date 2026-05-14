@@ -24,15 +24,12 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 8, 2026)
+## 🚀 Recent Work (Updated May 14, 2026)
 
-- On **May 4-6, 2026**, I shipped public updates across the [Pencil](https://github.com/kev1n/pencil) project family: two merged Better Caesar PRs hardening the CAESAR access flow and responsive analytics tooltips, a [pencil-landing-page](https://github.com/kev1n/pencil-landing-page/pull/1) draft PR fixing a React render-purity lint issue, and a follow-up commit that makes every Chrome Web Store CTA open in a new tab so installs do not replace the landing page.
-- On **May 5, 2026**, I opened a new private draft PR in my journal app that skips empty full-text-search rows during quiet save-first capture, adds focused repository tests for blank, title-only, and transcript-backed reindexing, and documents the rule for when searchable entries should hit the index.
-- Also on **May 4-5, 2026**, I pushed the first public version of [Audible_Quizlet](https://github.com/Jason-Latz/Audible_Quizlet), a native SwiftUI iOS app for hands-free flashcard study that imports Quizlet-style exports, grades answers offline, supports voice commands, and exposes adjustable text-to-speech speed with some final polish around disabled controls and listen startup.
-- On **May 4, 2026**, I opened a new private draft PR in an experiment project that reuses normalized comparison snapshots, adds regression coverage against repeated signal extraction, and cuts a synthetic 5,000-log benchmark from about 18 ms/run to 3.7 ms/run without changing the output.
-- Earlier on **May 4, 2026**, I merged two private database-performance PRs: one in my journal app that adds SQLite read-path indexes for newest-first entry feeds, transcript history, and pending background-job selection, and one in a chat app that adds session-scoped indexes plus migration and regression coverage so longer conversation histories stop falling back to full-table scans.
-- Also on **May 4, 2026**, I pushed two public [Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation) fixes that normalize PDF parser inputs, add a real-PDF regression test, and bundle the pdf.js worker shim so document parsing is more reliable in production.
-- On **May 2-3, 2026**, I pushed public [Prediction_Education](https://github.com/Jason-Latz/Prediction_Education) simulation updates that replaced the Matter.js rollout with an explicit classroom-scale physics model, then refined ramp-transition fidelity and contact behavior so the post-ramp motion lands in more believable final poses.
+- On **May 13-14, 2026**, I shipped a concentrated [Pencil](https://github.com/kev1n/pencil) sprint for paper.nu: merged PRs that distinguish enrolled classes from shopping-cart classes, reset the schedule-combination cursor when sort mode changes, and add a new [Lazy mode](https://github.com/kev1n/pencil/pull/7) that ranks schedules by CTEC out-of-class hours while surfacing an always-visible workload chip with a detailed popup breakdown.
+- Later on **May 14, 2026**, I kept polishing that same planner flow with follow-up Pencil commits that move the workload chip into the sticky header, explain the combo rating on hover, fix popup transparency and CSS compatibility edge cases, and tighten the combinations bar so the whole schedule UI reads cleaner on real course plans.
+- On **May 13, 2026**, I opened another [Pencil PR](https://github.com/kev1n/pencil/pull/3) that collapses multi-section class-search results behind a cleaner disclosure so course cards stay compact by default without hiding the section details.
+- On **May 8, 2026**, I opened a new draft PR in my iOS journaling app that bundles entry-detail database reads into one GRDB snapshot, cutting repeated transaction overhead on the entry screen and documenting when small related reads should be bundled together.
 
 ---
 
