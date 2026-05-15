@@ -24,12 +24,12 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 14, 2026)
+## 🚀 Recent Work (Updated May 15, 2026)
 
-- On **May 13-14, 2026**, I shipped a concentrated [Pencil](https://github.com/kev1n/pencil) sprint for paper.nu: merged PRs that distinguish enrolled classes from shopping-cart classes, reset the schedule-combination cursor when sort mode changes, and add a new [Lazy mode](https://github.com/kev1n/pencil/pull/7) that ranks schedules by CTEC out-of-class hours while surfacing an always-visible workload chip with a detailed popup breakdown.
-- Later on **May 14, 2026**, I kept polishing that same planner flow with follow-up Pencil commits that move the workload chip into the sticky header, explain the combo rating on hover, fix popup transparency and CSS compatibility edge cases, and tighten the combinations bar so the whole schedule UI reads cleaner on real course plans.
-- On **May 13, 2026**, I opened another [Pencil PR](https://github.com/kev1n/pencil/pull/3) that collapses multi-section class-search results behind a cleaner disclosure so course cards stay compact by default without hiding the section details.
-- On **May 8, 2026**, I opened a new draft PR in my iOS journaling app that bundles entry-detail database reads into one GRDB snapshot, cutting repeated transaction overhead on the entry screen and documenting when small related reads should be bundled together.
+- On **May 14-15, 2026**, I shipped and merged a [Pencil](https://github.com/kev1n/pencil) push for paper.nu's calendar-export flow: [PR #8](https://github.com/kev1n/pencil/pull/8) adds a walkthrough modal with app-specific import steps, deep links, remembered tab state, and test coverage so schedule export is easier to finish end-to-end.
+- Also on **May 15, 2026**, I merged another run of Pencil polish work in [PR #9](https://github.com/kev1n/pencil/pull/9), [PR #10](https://github.com/kev1n/pencil/pull/10), [PR #11](https://github.com/kev1n/pencil/pull/11), and [PR #12](https://github.com/kev1n/pencil/pull/12): highlighting the EXPORT button, adding master and per-section popup toggles, fixing Load CTEC clipping on cramped schedule cards, and adding an in-product "and pencil" brand mark plus a small About modal.
+- On **May 15, 2026**, an earlier [Pencil PR](https://github.com/kev1n/pencil/pull/3) I opened to collapse multi-section class-search results landed as well, keeping course cards compact by default while still letting people drill into section details when they want them.
+- On **May 14, 2026**, I also opened a draft performance PR in a private iOS journaling app focused on trimming an analysis hot path so heavier entry-analysis work does less redundant processing.
 
 ---
 
