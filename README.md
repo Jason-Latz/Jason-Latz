@@ -24,12 +24,11 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 15, 2026)
+## 🚀 Recent Work (Updated May 17, 2026)
 
-- On **May 14-15, 2026**, I shipped and merged a [Pencil](https://github.com/kev1n/pencil) push for paper.nu's calendar-export flow: [PR #8](https://github.com/kev1n/pencil/pull/8) adds a walkthrough modal with app-specific import steps, deep links, remembered tab state, and test coverage so schedule export is easier to finish end-to-end.
-- Also on **May 15, 2026**, I merged another run of Pencil polish work in [PR #9](https://github.com/kev1n/pencil/pull/9), [PR #10](https://github.com/kev1n/pencil/pull/10), [PR #11](https://github.com/kev1n/pencil/pull/11), and [PR #12](https://github.com/kev1n/pencil/pull/12): highlighting the EXPORT button, adding master and per-section popup toggles, fixing Load CTEC clipping on cramped schedule cards, and adding an in-product "and pencil" brand mark plus a small About modal.
-- On **May 15, 2026**, an earlier [Pencil PR](https://github.com/kev1n/pencil/pull/3) I opened to collapse multi-section class-search results landed as well, keeping course cards compact by default while still letting people drill into section details when they want them.
-- On **May 14, 2026**, I also opened a draft performance PR in a private iOS journaling app focused on trimming an analysis hot path so heavier entry-analysis work does less redundant processing.
+- On **May 16, 2026**, I merged another [Pencil](https://github.com/kev1n/pencil) cleanup pass in [PR #13](https://github.com/kev1n/pencil/pull/13), centering the paper.nu sidebar branding, finishing the Paper.nu feature-group off-switch, and fixing a few listener-cleanup leaks that showed up while auditing the teardown paths.
+- Across **May 14-16, 2026**, I shipped a longer Pencil streak in [PR #8](https://github.com/kev1n/pencil/pull/8), [PR #9](https://github.com/kev1n/pencil/pull/9), [PR #10](https://github.com/kev1n/pencil/pull/10), [PR #11](https://github.com/kev1n/pencil/pull/11), [PR #12](https://github.com/kev1n/pencil/pull/12), and [PR #3](https://github.com/kev1n/pencil/pull/3): smoothing paper.nu calendar export, tightening the popup controls, fixing cramped schedule-card layout issues, adding lightweight product branding, and keeping CAESAR class-search results compact by default.
+- On **May 15, 2026**, I also opened two private draft PRs: one trims redundant Today-screen reload work in an iOS journaling app, and the other adds a small transfer-tracing console script for internal debugging.
 
 ---
 
