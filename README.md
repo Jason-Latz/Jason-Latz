@@ -24,11 +24,12 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 18, 2026)
+## 🚀 Recent Work (Updated May 19, 2026)
 
-- On **May 18, 2026**, I merged a [Pencil landing page refresh](https://github.com/kev1n/pencil-landing-page/pull/3) that synced the site copy with the extension changelog, tightened the CTA and footer polish, and clarified the privacy / CAESAR-gating story around the product rollout.
+- On **May 18, 2026**, I merged [Pencil PR #14](https://github.com/kev1n/pencil/pull/14), fixing a subtle CTEC professor-matching bug so classes taught by instructors who share a last name no longer pull the wrong analytics, including the paper.nu schedule-card path that only showed abbreviated names.
+- Also on **May 18, 2026**, I merged a [Pencil landing page refresh](https://github.com/kev1n/pencil-landing-page/pull/3) that synced the site copy with the extension changelog, tightened the CTA and footer polish, and clarified the privacy / CAESAR-gating story around the product rollout.
 - Across **May 13-16, 2026**, I shipped a dense run of [Pencil](https://github.com/kev1n/pencil) improvements in [PR #3](https://github.com/kev1n/pencil/pull/3), [PR #6](https://github.com/kev1n/pencil/pull/6), [PR #7](https://github.com/kev1n/pencil/pull/7), [PR #8](https://github.com/kev1n/pencil/pull/8), [PR #9](https://github.com/kev1n/pencil/pull/9), [PR #10](https://github.com/kev1n/pencil/pull/10), [PR #11](https://github.com/kev1n/pencil/pull/11), [PR #12](https://github.com/kev1n/pencil/pull/12), and [PR #13](https://github.com/kev1n/pencil/pull/13): compact class-search section lists, lazy schedule-combination controls, paper.nu export/help flows, CTEC and study-load UX polish, and a handful of layout and teardown fixes.
-- On **May 17, 2026**, I also opened several private draft PRs spanning an iOS journaling app and a small tooling repo, including work on bounded library-search previews, insight-term indexing, and lightweight observation-budget / transfer-trace scripts.
+- Across **May 17-18, 2026**, I also opened draft work spanning a public landing-page follow-up and a couple of private repos, including tighter privacy-copy cleanup, routing-snapshot reuse, bounded library-search previews, insight-term indexing, and lightweight observation-budget / transfer-trace scripts.
 
 ---
 
