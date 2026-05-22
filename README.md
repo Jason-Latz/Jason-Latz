@@ -24,20 +24,15 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 21, 2026)
+## 🚀 Recent Work (Updated May 22, 2026)
 
+- On **May 21, 2026**, I opened a draft private iOS journaling cleanup PR that projects only stored audio paths before delete-one and delete-all flows, trims unnecessary decoding from the cleanup hot path, adds regression coverage, and documents the database-performance rule behind the change.
+- Also on **May 21, 2026**, I packaged a private CLI experiment into a draft PR around interruption triage: scenario scoring, response-lane planning, markdown and JSON brief rendering, sample artifacts, and the missing installed console script needed for clean editable installs.
 - On **May 20, 2026**, I opened a draft private iOS journaling pipeline PR that reuses cloud-improved transcript text already in memory during analysis, removes a redundant database fetch from the processing hot path, adds regression coverage, and tightens the pipeline docs.
-- Across **May 19-20, 2026**, I iterated on a pair of private experiment tracks: one fixed a missing console-script entrypoint to turn an unpublished tool stack into a draft PR, and another expanded a CLI prototype around state scoring, response-lane planning, markdown brief rendering, and sample artifacts.
 - On **May 19, 2026**, I opened a draft private data-layer PR that collapses active-transcript lookups into a single joined GRDB read, adds coverage for multi-version transcript selection, and documents the local transcription and analysis database path.
 - On **May 18, 2026**, I merged [Pencil PR #14](https://github.com/kev1n/pencil/pull/14), fixing a subtle CTEC professor-matching bug so classes taught by instructors who share a last name no longer pull the wrong analytics, including the paper.nu schedule-card path that only showed abbreviated names.
 - Also on **May 18, 2026**, I merged a [Pencil landing page refresh](https://github.com/kev1n/pencil-landing-page/pull/3) that synced the site copy with the extension changelog, tightened the CTA and footer polish, and clarified the privacy / CAESAR-gating story around the product rollout.
 - Across **May 13-16, 2026**, I shipped a dense run of [Pencil](https://github.com/kev1n/pencil) improvements in [PR #3](https://github.com/kev1n/pencil/pull/3), [PR #6](https://github.com/kev1n/pencil/pull/6), [PR #7](https://github.com/kev1n/pencil/pull/7), [PR #8](https://github.com/kev1n/pencil/pull/8), [PR #9](https://github.com/kev1n/pencil/pull/9), [PR #10](https://github.com/kev1n/pencil/pull/10), [PR #11](https://github.com/kev1n/pencil/pull/11), [PR #12](https://github.com/kev1n/pencil/pull/12), and [PR #13](https://github.com/kev1n/pencil/pull/13): compact class-search section lists, lazy schedule-combination controls, paper.nu export/help flows, CTEC and study-load UX polish, and a handful of layout and teardown fixes.
-
----
-
-## 📌 Recent GitHub Activity
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:end-->
 
 ---
 
