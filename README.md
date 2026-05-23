@@ -24,8 +24,10 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 22, 2026)
+## 🚀 Recent Work (Updated May 23, 2026)
 
+- On **May 22, 2026**, I opened a draft private iOS journaling performance PR that replaces a recursive storage-size file walk with metadata-backed byte summing plus direct SQLite artifact stats, adds focused regression coverage, and documents the cheaper Settings read path.
+- Also on **May 22, 2026**, I packaged a private experimental seed into a draft PR around scenario scoring, response-lane planning, markdown and JSON brief rendering, sample artifacts, and the console script wiring needed for clean editable installs.
 - On **May 21, 2026**, I opened a draft private iOS journaling cleanup PR that projects only stored audio paths before delete-one and delete-all flows, trims unnecessary decoding from the cleanup hot path, adds regression coverage, and documents the database-performance rule behind the change.
 - Also on **May 21, 2026**, I packaged a private CLI experiment into a draft PR around interruption triage: scenario scoring, response-lane planning, markdown and JSON brief rendering, sample artifacts, and the missing installed console script needed for clean editable installs.
 - On **May 20, 2026**, I opened a draft private iOS journaling pipeline PR that reuses cloud-improved transcript text already in memory during analysis, removes a redundant database fetch from the processing hot path, adds regression coverage, and tightens the pipeline docs.
