@@ -24,8 +24,10 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 24, 2026)
+## 🚀 Recent Work (Updated May 25, 2026)
 
+- On **May 24, 2026**, I opened a draft private iOS insights-performance PR that caches one computed snapshot per time window, avoids rerunning top-term aggregation and chart reshaping when I revisit an already loaded range, adds focused regression coverage, and documents the one-load-cycle cache rule.
+- Also on **May 24, 2026**, I opened a draft private CLI-seed packaging PR that restores a missing installed console script, keeps the fix scoped to packaging, and validates the markdown and JSON sample-output path end to end.
 - On **May 23, 2026**, I opened a draft private optimization PR that reuses one shared score snapshot while compiling a state vector, removes duplicate scorer work from the hot path, adds regression coverage, and documents the single-pass scoring rule.
 - Also on **May 23, 2026**, I turned another private CLI seed into a draft PR by wiring its missing installed console script, then validated the editable-install path alongside the markdown and JSON sample outputs it produces.
 - On **May 22, 2026**, I opened a draft private iOS journaling performance PR that replaces a recursive storage-size file walk with metadata-backed byte summing plus direct SQLite artifact stats, adds focused regression coverage, and documents the cheaper Settings read path.
