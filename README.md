@@ -24,8 +24,10 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 25, 2026)
+## 🚀 Recent Work (Updated May 26, 2026)
 
+- On **May 25, 2026**, I pushed a first public [BioBeat](https://github.com/Jason-Latz/BioBeat) buildout: a Streamlit replay dashboard, iTunes preview-clip selection, audio-feature extraction and normalization, synthetic biometric generation, baseline model training and metrics, and recommendation ranking for a mood-based music prototype.
+- Earlier on **May 25, 2026**, I opened two draft private PRs: one cuts peak memory on a voice-journaling save path by streaming large audio files through chunked SHA-256 checksums with regression coverage, and the other restores a missing console-script entrypoint for a CLI experiment seed while replaying its scoring, planning, rendering, and sample-artifact stack onto a clean branch.
 - On **May 24, 2026**, I opened a draft private iOS insights-performance PR that caches one computed snapshot per time window, avoids rerunning top-term aggregation and chart reshaping when I revisit an already loaded range, adds focused regression coverage, and documents the one-load-cycle cache rule.
 - Also on **May 24, 2026**, I opened a draft private CLI-seed packaging PR that restores a missing installed console script, keeps the fix scoped to packaging, and validates the markdown and JSON sample-output path end to end.
 - On **May 23, 2026**, I opened a draft private optimization PR that reuses one shared score snapshot while compiling a state vector, removes duplicate scorer work from the hot path, adds regression coverage, and documents the single-pass scoring rule.
