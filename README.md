@@ -24,8 +24,10 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 26, 2026)
+## 🚀 Recent Work (Updated May 27, 2026)
 
+- On **May 26, 2026**, I pushed another public [BioBeat](https://github.com/Jason-Latz/BioBeat) sprint that moved the prototype toward guided self-training: an Arduino-backed collector, synchronized song playback and sensor capture, a flicker-free countdown, auto-saved forward rating flow, and broader genre-diverse training clips and audio features across lo-fi, EDM, jazz, and country.
+- Also on **May 26, 2026**, I opened draft PR [#9](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/9) for [Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation), pausing hidden-tab `/api/jobs/:id` polling, forcing one immediate refresh when the page becomes visible again, and adding focused tests plus docs for the polling rule.
 - On **May 25, 2026**, I pushed a first public [BioBeat](https://github.com/Jason-Latz/BioBeat) buildout: a Streamlit replay dashboard, iTunes preview-clip selection, audio-feature extraction and normalization, synthetic biometric generation, baseline model training and metrics, and recommendation ranking for a mood-based music prototype.
 - Earlier on **May 25, 2026**, I opened two draft private PRs: one cuts peak memory on a voice-journaling save path by streaming large audio files through chunked SHA-256 checksums with regression coverage, and the other restores a missing console-script entrypoint for a CLI experiment seed while replaying its scoring, planning, rendering, and sample-artifact stack onto a clean branch.
 - On **May 24, 2026**, I opened a draft private iOS insights-performance PR that caches one computed snapshot per time window, avoids rerunning top-term aggregation and chart reshaping when I revisit an already loaded range, adds focused regression coverage, and documents the one-load-cycle cache rule.
