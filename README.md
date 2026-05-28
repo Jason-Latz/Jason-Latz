@@ -24,8 +24,10 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 27, 2026)
+## 🚀 Recent Work (Updated May 28, 2026)
 
+- On **May 27, 2026**, I opened draft PR [#14](https://github.com/Jason-Latz/vinyl/pull/14) for [vinyl](https://github.com/Jason-Latz/vinyl), skipping redundant Library transcript searches when whitespace-only edits don’t change the normalized query, preserving forced refreshes when the screen reloads with an active search, and adding targeted view-model regression coverage plus a short behavior note.
+- Earlier on **May 27, 2026**, I opened draft PR [#1](https://github.com/Jason-Latz/BioBeat/pull/1) for [BioBeat](https://github.com/Jason-Latz/BioBeat) to ignore generated session-label CSVs so normal self-training collector runs stop dirtying the repo while keeping the checked-in demo fixtures visible to Git.
 - On **May 26, 2026**, I pushed another public [BioBeat](https://github.com/Jason-Latz/BioBeat) sprint that moved the prototype toward guided self-training: an Arduino-backed collector, synchronized song playback and sensor capture, a flicker-free countdown, auto-saved forward rating flow, and broader genre-diverse training clips and audio features across lo-fi, EDM, jazz, and country.
 - Also on **May 26, 2026**, I opened draft PR [#9](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/9) for [Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation), pausing hidden-tab `/api/jobs/:id` polling, forcing one immediate refresh when the page becomes visible again, and adding focused tests plus docs for the polling rule.
 - On **May 25, 2026**, I pushed a first public [BioBeat](https://github.com/Jason-Latz/BioBeat) buildout: a Streamlit replay dashboard, iTunes preview-clip selection, audio-feature extraction and normalization, synthetic biometric generation, baseline model training and metrics, and recommendation ranking for a mood-based music prototype.
