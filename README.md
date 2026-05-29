@@ -24,7 +24,11 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 28, 2026)
+## 🚀 Recent Work (Updated May 29, 2026)
+
+- On **May 29, 2026**, I landed a batch of [vinyl](https://github.com/Jason-Latz/vinyl) performance fixes in [PR #4](https://github.com/Jason-Latz/vinyl/pull/4), [PR #5](https://github.com/Jason-Latz/vinyl/pull/5), [PR #6](https://github.com/Jason-Latz/vinyl/pull/6), and [PR #7](https://github.com/Jason-Latz/vinyl/pull/7): trimming the on-device analysis hot path, skipping a redundant Today recents reload after save, adding a composite Insights index for top-term queries, and bounding Library search previews so search results stop hauling full transcripts into Swift state.
+- Also on **May 29, 2026**, I merged two other public cleanup/performance fixes: [LessonForge PR #2](https://github.com/Jason-Latz/LessonForge/pull/2), which memoizes repeated server-side lesson and creator reads during a render, and [yapper PR #2](https://github.com/Jason-Latz/yapper/pull/2) plus [PR #1](https://github.com/Jason-Latz/yapper/pull/1), which cut redundant live-session timer publishes and fixed iOS build Ruby-version detection in CI.
+- On **May 28, 2026**, I opened draft private PR [#10](https://github.com/Jason-Latz/Kindle_pdf_translation/pull/10) for [Kindle_pdf_translation](https://github.com/Jason-Latz/Kindle_pdf_translation), avoiding PDF upload buffer copies by keeping `Buffer` input as a shared `Uint8Array` view through parsing, with regression coverage and docs after benchmarking the peak-memory drop.
 
 - On **May 27, 2026**, I opened draft PR [#14](https://github.com/Jason-Latz/vinyl/pull/14) for [vinyl](https://github.com/Jason-Latz/vinyl), skipping redundant Library transcript searches when whitespace-only edits don’t change the normalized query, preserving forced refreshes when the screen reloads with an active search, and adding targeted view-model regression coverage plus a short behavior note.
 - Earlier on **May 27, 2026**, I opened draft PR [#1](https://github.com/Jason-Latz/BioBeat/pull/1) for [BioBeat](https://github.com/Jason-Latz/BioBeat) to ignore generated session-label CSVs so normal self-training collector runs stop dirtying the repo while keeping the checked-in demo fixtures visible to Git.
