@@ -34,6 +34,9 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
+## 📌 Recent GitHub Activity
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
 
 ---
 
