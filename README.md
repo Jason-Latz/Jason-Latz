@@ -24,7 +24,9 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🚀 Recent Work (Updated May 29, 2026)
+## 🚀 Recent Work (Updated June 1, 2026)
+
+- Across **May 31-June 1, 2026**, I pushed a dense public [BioBeat](https://github.com/Jason-Latz/BioBeat) iteration focused on cleaner self-training collection: hardening the guided sensor workflow, improving cached iTunes clip generation, expanding the clip catalog, standardizing valence terminology, adding an EDA quality audit plus curated rating export, capturing raw sensor checkpoints, supporting ordered batch collection, and documenting the clean reverse re-record process.
 
 - On **May 29, 2026**, I landed a batch of [vinyl](https://github.com/Jason-Latz/vinyl) performance fixes in [PR #4](https://github.com/Jason-Latz/vinyl/pull/4), [PR #5](https://github.com/Jason-Latz/vinyl/pull/5), [PR #6](https://github.com/Jason-Latz/vinyl/pull/6), and [PR #7](https://github.com/Jason-Latz/vinyl/pull/7): trimming the on-device analysis hot path, skipping a redundant Today recents reload after save, adding a composite Insights index for top-term queries, and bounding Library search previews so search results stop hauling full transcripts into Swift state.
 - Also on **May 29, 2026**, I merged two other public cleanup/performance fixes: [LessonForge PR #2](https://github.com/Jason-Latz/LessonForge/pull/2), which memoizes repeated server-side lesson and creator reads during a render, and [yapper PR #2](https://github.com/Jason-Latz/yapper/pull/2) plus [PR #1](https://github.com/Jason-Latz/yapper/pull/1), which cut redundant live-session timer publishes and fixed iOS build Ruby-version detection in CI.
