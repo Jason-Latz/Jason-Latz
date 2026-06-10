@@ -2,7 +2,7 @@ name: Update GitHub metrics
 
 on:
   schedule:
-    - cron: "23 6 * * *"  # daily at 06:23 UTC
+    - cron: "23 6 * * 0"  # weekly on Sunday at 06:23 UTC
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,8 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ github.token }}
+          # Prefer the PAT secret so metrics can include private activity.
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           user: Jason-Latz
           template: classic
           base: header, activity, community, repositories, metadata

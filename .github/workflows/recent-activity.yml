@@ -3,7 +3,7 @@ name: Update recent activity
 
 'on':
   schedule:
-    - cron: "31 6 * * *"  # daily at 06:31 UTC
+    - cron: "31 6 * * 0"  # weekly on Sunday at 06:31 UTC
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,8 @@ jobs:
           GH_USERNAME: Jason-Latz
           CONFIG_FILE: .github/recent-activity.config.yml
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          # Use the PAT secret when available so private activity can be included.
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || github.token }}
 
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
