@@ -3,7 +3,7 @@ name: Update recent activity
 
 'on':
   schedule:
-    - cron: "31 6 * * 0"  # weekly on Sunday at 06:31 UTC
+    - cron: "31 6 * * *"  # daily at 06:31 UTC
   workflow_dispatch:
 
 permissions:

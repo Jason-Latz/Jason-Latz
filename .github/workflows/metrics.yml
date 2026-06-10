@@ -2,7 +2,7 @@ name: Update GitHub metrics
 
 on:
   schedule:
-    - cron: "23 6 * * 0"  # weekly on Sunday at 06:23 UTC
+    - cron: "23 6 * * *"  # daily at 06:23 UTC
   workflow_dispatch:
 
 permissions:

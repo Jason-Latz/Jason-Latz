@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/Jason-Latz">
-    <img src="https://img.shields.io/github/followers/Jason-Latz?label=Follow&style=social" alt="GitHub Followers" />
+    <img src="https://img.shields.io/badge/GitHub-Jason--Latz-181717?logo=github&style=flat" alt="GitHub Profile" />
   </a>
   <a href="https://www.linkedin.com/in/jason-latz-7b8634242/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=flat" alt="LinkedIn" />
@@ -34,6 +34,9 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
+## 📌 Recent GitHub Activity
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
 
 ---
 
