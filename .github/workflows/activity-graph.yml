@@ -8,16 +8,25 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-3d-contrib
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@latest
+      - uses: actions/checkout@v5
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           GITHUB_TOKEN: ${{ github.token }}
           USERNAME: ${{ github.repository_owner }}
+      # README only embeds profile-night-rainbow.svg; drop the other generated
+      # variants so we don't re-commit ~1.7 MB of unused SVGs every day.
+      # To switch variants, change the filename here AND in README.md.
+      - name: Keep only the displayed variant
+        run: find profile-3d-contrib -type f -name '*.svg' ! -name 'profile-night-rainbow.svg' -delete
       - name: Commit & Push
         run: |
           git config user.name github-actions
