@@ -37,11 +37,6 @@ I'm a Northwestern student studying Computer Science and Psychology! After worki
 
 ---
 
-## 🧮 My GitHub Metrics
-<p align="center">
-  <img src="assets/metrics.svg" alt="Jason's GitHub metrics — activity, languages, and repositories" />
-</p>
-
 ## 🧊 3D Contribution Graph
 <p align="center">
   <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
