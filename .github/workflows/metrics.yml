@@ -8,22 +8,26 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-metrics
+  cancel-in-progress: false
+
 jobs:
   metrics:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - name: Ensure assets directory
-        run: mkdir -p assets
-
+      # lowlighter/metrics renders the SVG and self-commits it to `filename`
+      # (output_action defaults to `commit`, message "Update <filename> - [Skip GitHub Action]").
       - name: Generate metrics
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ github.token }}
           user: Jason-Latz
+          filename: assets/metrics.svg
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Chicago
@@ -37,15 +41,3 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_lines: yes
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_habits: yes
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          output: assets/metrics.svg
-
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update metrics"
-          file_pattern: assets/metrics.svg
